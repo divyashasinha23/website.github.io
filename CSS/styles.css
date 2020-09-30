@@ -1,0 +1,68 @@
+
+.about {
+
+  max-width: 60%;
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+}
+
+.description, .abo {
+
+  margin: 5px;
+  max-width: 50%;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description {
+  align-items: center;
+  justify-content: center;
+}
+
+.pic {
+  border-radius: 50%;
+}
+.name {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 2px;
+}
+body {
+  background: linear-gradient(to bottom, #f8efd4 0%, #edc988 100%);
+}
+html,body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Open Sans', sans-serif;
+}
+.links {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.links li {
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 3px;
+}
+
+.links a:hover {
+ color: #eeeeee;
+}
+.bio{
+  line-height: 2rem;
+ font-weight: 5px;
+ color: #463333;
+}
